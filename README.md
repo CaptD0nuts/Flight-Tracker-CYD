@@ -52,3 +52,7 @@ The status line at the bottom of the panel shows how many aircraft are in range 
 - adsb.lol asks for a user agent with contact info and rate-limits busy clients. The board polls every 30 seconds and backs off for a minute if it gets HTTP 429. If you fork this, change `USER_AGENT` in `include/config.h` to your own contact.
 - HTTPS certificates aren't checked (`setInsecure`); the data is public and read-only.
 - At 100 nm near a major airport the reply can be large for the ESP32's memory; the board keeps the nearest 40 aircraft.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Libraries pulled in by PlatformIO (TFT_eSPI, ArduinoJson, WiFiManager, XPT2046_Touchscreen) keep their own licenses.
