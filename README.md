@@ -55,7 +55,7 @@ The status line at the bottom of the panel shows how many aircraft are in range 
 
 ## Related
 
-**Sea Tracker CYD** is a companion project built from this one for the same board. It swaps aircraft for animals tagged by [OCEARCH](https://www.ocearch.org/tracker/) (sharks, sea turtles and more). They're drawn on a sonar scope with the same range buttons and tap-to-select panel, plus a filter that hides positions older than 30, 90 or 365 days.
+**[Sea Tracker CYD](https://github.com/CaptD0nuts/cyd-sea-tracker)** is a companion project built from this one for the same board. It swaps aircraft for animals tagged by [OCEARCH](https://www.ocearch.org/tracker/) (sharks, sea turtles and more). They're drawn on a sonar scope with the same range buttons and tap-to-select panel, plus a filter that hides positions older than 30, 90 or 365 days.
 
 ## License
 
