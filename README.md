@@ -53,6 +53,10 @@ The status line at the bottom of the panel shows how many aircraft are in range 
 - HTTPS certificates aren't checked (`setInsecure`); the data is public and read-only.
 - At 100 nm near a major airport the reply can be large for the ESP32's memory; the board keeps the nearest 40 aircraft.
 
+## Related
+
+**Sea Tracker CYD** is a companion project built from this one for the same board. It swaps aircraft for animals tagged by [OCEARCH](https://www.ocearch.org/tracker/) (sharks, sea turtles and more). They're drawn on a sonar scope with the same range buttons and tap-to-select panel, plus a filter that hides positions older than 30, 90 or 365 days.
+
 ## License
 
 MIT, see [LICENSE](LICENSE). Libraries pulled in by PlatformIO (TFT_eSPI, ArduinoJson, WiFiManager, XPT2046_Touchscreen) keep their own licenses.
