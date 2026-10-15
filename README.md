@@ -55,7 +55,10 @@ The status line at the bottom of the panel shows how many aircraft are in range 
 
 ## Related
 
-**[Sea Tracker CYD](https://github.com/CaptD0nuts/cyd-sea-tracker)** is a companion project built from this one for the same board. It swaps aircraft for animals tagged by [OCEARCH](https://www.ocearch.org/tracker/) (sharks, sea turtles and more). They're drawn on a sonar scope with the same range buttons and tap-to-select panel, plus a filter that hides positions older than 30, 90 or 365 days.
+Two companion projects run on the same board:
+
+- [Sea Tracker CYD](https://github.com/CaptD0nuts/cyd-sea-tracker), built from this one, swaps aircraft for animals tagged by [OCEARCH](https://www.ocearch.org/tracker/) (sharks, sea turtles and more). They're drawn on a sonar scope with the same range buttons and tap-to-select panel, plus a filter that hides positions older than 30, 90 or 365 days.
+- **Tide Display CYD** draws an animated beach whose water line follows the real tide from NOAA predictions, with live waves, wind and water temperature from an NDBC buoy, the sun and moon at their real positions, and a 36-hour tide chart.
 
 ## License
 
